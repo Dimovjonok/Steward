@@ -1,4 +1,4 @@
-package ru.dumdumbich.android.steward
+package ru.dumdumbich.android.steward.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import ru.dumdumbich.android.steward.ui.theme.StewardTheme
 
-class MainActivity : ComponentActivity() {
+class SingleActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
